@@ -2,7 +2,7 @@ const WebSocket = require('ws');
 const EventEmitter = require('events');
 const signal = new EventEmitter();
 
-const ws = new WebSocket('ws://127.0.0.1:8010');
+const ws = new WebSocket('ws://81.68.110.197:8010');
 // const ws = new WebSocket('ws://111.231.59.178:8010'); // 填你自己的地址，这个是我的服务器，不一定可用
 
 ws.on('open', function open() {
